@@ -1,0 +1,19 @@
+# Données d'audit : ne jamais publier
+domaines.txt
+*.txt
+!requirements.txt
+resultats_dmarc.csv
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Éditeurs / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
